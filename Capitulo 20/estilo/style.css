@@ -67,7 +67,8 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgb(0, 0, 0, 0.253);
 }
 

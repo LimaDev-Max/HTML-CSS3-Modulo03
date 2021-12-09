@@ -78,7 +78,7 @@ section.imagem > p {
 }
 
 section#img01 {
-    background-image: url();
+    background-image: url(imagens/);
 } 
 
 section#img02 {

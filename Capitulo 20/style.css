@@ -70,6 +70,8 @@ section.imagem {
     background-color: rgb(51, 51, 51);
     color: white;
     box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.712);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
@@ -82,7 +84,7 @@ section.imagem > p {
 section#img01 {
     background-image: url(imagens/girassol.jpg);
     background-position: right center;
-    background-size: cover;
+    
 } 
 
 section#img02 {

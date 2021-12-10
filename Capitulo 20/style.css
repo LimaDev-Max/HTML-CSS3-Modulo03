@@ -69,20 +69,25 @@ color:black;
 section.imagem {
     background-color: rgb(51, 51, 51);
     color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.712);
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgb(0, 0, 0, 0.253);
+    background-color: rgb(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
 }
 
 section#img01 {
-    background-image: url(imagens/);
+    background-image: url(imagens/girassol.jpg);
+    background-position: right center;
+    background-size: cover;
 } 
 
 section#img02 {
-
+    background-image: url(imagens/papal\ antigo.jpg);
+    background-size: 100% 100%;
 }
 
 footer {

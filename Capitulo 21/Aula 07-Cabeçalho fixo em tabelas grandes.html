@@ -13,6 +13,7 @@
          table {
              width: 600px;
              border-collapse: collapse;
+             position: relative;
          }
       
 
@@ -28,8 +29,14 @@
             background-color: lightgray;
          }
 
+         thead > tr > th {
+             position: sticky;
+             top: -1px;
+             background-color: #383838;
+         }
+
          thead, tfoot {
-             background-color: gray;
+             background-color: #383838;
              color: white;
          }
 

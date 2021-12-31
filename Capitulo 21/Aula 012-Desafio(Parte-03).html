@@ -24,67 +24,79 @@
             border: 1px solid gray;
             padding: 10px;
         }
+
+        .medias{
+            background-color: #383838;
+        }
     </style>
 </head>
 <body>
     <h1>Excercícios de Tabelas</h1>
     <table>
-        <caption>
-                Filmes Favoritos 
-        </caption>
         <thead>
-            <tr>
-                <th scope="col">Grupos</th>
-                <th scope="col">Nomes</th>
-                <th colspan="3" scope="colgroup">Filmes</th>
+            <tr class="medias">
+                <th scope="col" rowspan="2"> Àrea</th>
+                <th scope="col" rowspan="2">Diciplinas</th>
+                <th colspan="2" scope="">Notas</th>
+                <th rowspan="2">Média</th>
+            </tr>
+
+            <tr class="medias">
+                <th>Nota 1</th>
+                <th>Nota 2</th>
             </tr>
         </thead>
-        <tfoot>
-            <tr>
-                <th colspan="4" scope="row">Total</th>
-                <td>1000</td>
-            </tr>
-        </tfoot>
         <tbody>
           <tr>
-            <th rowspan="3" scope="rowgroup">Mulheres</th>
-            <td>Ana Maria Santos</td>
-            <td>Alien</td>
-            <td>Rambo</td>
-            <td>Vigadores</td>
+            <th rowspan="4" scope="rowgroup">Exatas</th>
+            <td>Matemática</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
           </tr>
            <tr>
-               <td>Beatriz Souza</td>
-               <td>Hulk</td>
-               <td>Inception</td>
-               <td>Batman</td>
+               <td>Fisica</td>
+               <td>0.0</td>
+               <td>0.0</td>
+               <td>0.0</td>
            </tr>
            <tr>
-               <td>Cláudia Melo</td>
-               <td>Oblivion</td>
-               <td>Matrix</td>
-               <td>Big Hero</td>
+               <td>Quimica</td>
+               <td>0.0</td>
+               <td>0.0</td>
+               <td>0.0</td>
            </tr>
 
            <tr>
+            <td>biologia</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+           </tr>
+
+           <tr class="medias">
+            <td colspan="4">Médias de Exatas</td>
+            <td>0.0</td>
+           <tr>
                <th rowspan="3" scope="rowgroup">Homens</th>
-               <td>Bruno Mendoça</td>
-               <td>Intocáves</td>
-               <td>Amnésia</td>
-               <td>Gladador</td>
            </tr>
            <tr>
-              <td>Daniel Mendonça</td>
-              <td>Wall-E</td>
-              <td>Oldboy</td>
-              <td>Dangal</td>
+              <td>Historia</td>
+              <td>0.0</td>
+              <td>0.0</td>
+              <td>0.0</td>
            </tr>
            <tr>
-            <td>Fábio Moura</td>
-            <td>Homen Aranha</td>
-            <td>Taxi Driver</td>
-            <td>Toy Story</td>
+            <td>Geografia</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
          </tr>
+
+         <tr class="medias">
+            <td colspan="4">Médias de Humanas</td>
+            <td>0.0</td>
+        <tr>
         </tbody>
     </table>
 </body>
